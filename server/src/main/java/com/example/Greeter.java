@@ -17,19 +17,10 @@ public class Greeter {
    * Metodo de greet modificado.
    */
   public String greet(String someone) {
-    Long lalala = new Long("2333");
-    if(magico > 1){
-      if (true){
-        if (true){
-          if (true){
-             System.out.println ("Hola CARACOLA");
-          }
-        }
-      }
-        
+//    Long lalala = new Long("2333");
+    if(magico > 1) {
         return String.format("Hello, %s!", someone);
-    }
-     else{
+    }else{
         return String.format("Hello, %s!", someone);
     }
   }
